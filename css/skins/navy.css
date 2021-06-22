@@ -1,0 +1,33 @@
+
+
+
+form .rmm-btn, .exo-menu, a.view-more, .exo-menu > li > a:hover, li.drop-down ul > li > a:hover, .menu-area,
+.button_green_image a, ul.icon-des li a i, .Blog .new-blog-builder .blog-btn-more, .video_btn, .footer-icon a {
+    background-color: #001a57;
+}
+ 
+.Blog .new-blog-builder .blog-btn-more, .footer-icon a {
+	border:1px solid #001a57;	 
+ }
+.video_btn:before {
+    border: 2px solid #001a57;
+}
+.video_btn:after {
+    border: 2px solid #001a57;
+}
+ 
+ 
+.exo-menu > li > a:hover, li.drop-down ul > li > a:hover {
+	color:#fff;
+}
+
+.content_wrapper h2, h2 a, .hero-banner-main h1 span, .copyright-area p a, .Blog .new-blog-builder .grid-content span a, 
+.Blog .new-blog-builder .grid-content span, .list-style-16 li:after   {
+	color: #001a57;
+}
+
+
+
+.header-button a:hover {
+   color:#001a57;
+}

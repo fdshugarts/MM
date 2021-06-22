@@ -1,0 +1,158 @@
+/* Normal desktop :992px. LG Device */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.mm_feature_image {
+    width: auto;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* small mobile layout :320px. */
+@media only screen and (max-width: 767px) {
+
+.header-button {
+    margin-top: -55px;
+}
+.mmr {
+    margin-right:0px;
+    margin-left: 0px;
+}	
+.row-darker {
+    padding: 0px 0px; 
+}	
+li.drop-down {
+    position: relative;
+    overflow: hidden;
+}
+.search {
+    top: 0px; 
+    padding-top: 0px;
+    width: 100%;
+}
+.content_wrapper {
+    margin: 26px auto;
+}
+.content_wrapper h1 {
+    font-size: 45px;
+    padding-top: 0px; 
+}
+.fa.nav-style {
+    font-size: 780px;
+    margin-left: -254px;
+}
+.content_wrapper h2, h2 a {
+    font-size: 30px;
+}
+p {
+    font-size: 14px;
+}
+.contentleft {
+    float: none; 
+}
+.contentright {
+    float: none;
+}
+.button_green_image {
+	margin:0px 0px;
+    text-align: center;
+    display: inline-block;
+}
+#message_wrapper {
+	text-align:center;
+}
+.mm_feature h3 {
+    font-size: 18px;
+}
+.mm_feature_image {
+    width: auto;
+}
+.hero-banner-main h1 {
+    font-size: 28px;
+	margin-top: 0px;
+}
+
+
+
+
+
+	
+}
+
+/* Large Mobile layout:550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+.mmr {
+    margin-right:0px;
+    margin-left: 0px;
+}
+.row-darker {
+    padding: 0px 0px; 
+}
+li.drop-down {
+    position: relative;
+    overflow: hidden;
+}
+.content_wrapper {
+    margin: 26px auto;
+}
+.content_wrapper h1 {
+    font-size: 45px;
+    padding-top: 0px;
+}
+.fa.nav-style {
+    font-size: 780px;
+    margin-left: -254px;
+}
+.content_wrapper h2, h2 a {
+    font-size: 30px;
+}
+p {
+    font-size: 15px;
+}
+.contentright {
+    float: none;
+}
+.contentleft {
+    float: none; 
+}
+.button_green_image {
+    margin: 0px 0px;
+    text-align: center;
+    display: inline-block;
+}
+#message_wrapper {
+	text-align:center;
+}
+.mm_feature h3 {
+    font-size: 22px;
+}
+.mm_feature_image {
+    width: auto;
+}
+.hero-banner-main h1 {
+    font-size: 28px;
+	margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+  
+}
+
