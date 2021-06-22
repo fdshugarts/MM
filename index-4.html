@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+	  <meta charset="UTF-8">
+	  <title>The Ultimate Responsive Mega Menu Plugin</title>
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/slicknav.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styleswither.css">
+		<link rel="stylesheet" href="css/rm_menu.css">
+		<link rel="stylesheet" href="css/navy.css">
+		<link rel="stylesheet" href="css/rm_menu_responsive.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,600,700|Nunito:300,400,400i,600,700&display=swap" rel="stylesheet">
+		
+		<link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css">
+		<link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css">
+		<link rel="alternate stylesheet" type="text/css" title="navy" href="css/skins/navy.css">
+		<link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css">
+		<link rel="alternate stylesheet" type="text/css" title="magenta" href="css/skins/magenta.css">
+	</head>
+
+	<body>
+	
+
+	
+	<div id="switcher" class="" style="margin-left: -500px; display: none;">
+		<div class="content-switcher">
+			<h4>STYLE SWITCHER</h4>
+			<ul>
+				<li>
+					<a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img src="img/styleswitcher/blue.jpg" alt="blue"></a>
+				</li>
+				<li>
+					<a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img src="img/styleswitcher/red.jpg" alt="red"></a>
+				</li>
+				<li>
+					<a href="#" onclick="setActiveStyleSheet('navy');" title="navy" class="color"><img src="img/styleswitcher/navy.jpg" alt="navy"></a>
+				</li>
+				<li>
+					<a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img src="img/styleswitcher/green.jpg" alt="green"></a>
+				</li>
+				<li>
+					<a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img src="img/styleswitcher/magenta.jpg" alt="magenta"></a>
+				</li>
+			</ul>
+			
+			<br>
+
+			<a href="https://themeforest.net/user/themexhunter" class="waves-effect waves-light btn font-weight-600 purchase hoverable"> <span><i class="fa fa-shopping-cart"></i> PURCHASE</span></a>
+			<div id="hideSwitcher">×</div>
+		</div>
+	</div>
+	<div id="showSwitcher" class="styleSecondColor">
+		<i class="fa fa-cog fa-spin"></i>
+	</div>
+	
+  
+
+	<div class="new-4 menu-area-2">
+		<div id="header-sticky" class="mm-menu">
+			<div class="container">
+				<div class="row mmr">		 
+					<ul class="exo-menu">
+						<li><a class=" home-drop-down" href="#"><i class="fa fa-home"></i> Home</a>
+							<ul class="Home animated fadeIn">
+								<div class="col-md-3 hmp">								
+									<div class="tab">
+									  <button class="tablinks rmm" onmouseover="openCity(event, 'Home')">Home</button>
+									  <button class="tablinks rmm" onmouseover="openCity(event, 'Profile')">Profile</button>
+									  <button class="tablinks rmm" onmouseover="openCity(event, 'Messages')">Messages</button>
+									  <button class="tablinks rmm" onmouseover="openCity(event, 'Settings')">Settings</button>
+									</div>
+									<img src="img/gv1I7bYLLDI.jpg" alt="" />								
+								</div>		
+
+								<div id="Home" class="tabcontent active">
+									<div class="col-md-3">
+											<h4 class="row mega-title">Standers</h4>
+										<ul class="stander">
+											<li><a href="#">Mobile</a></li>
+											<li><a href="#">Computer</a></li>
+											<li><a href="#">Watch</a></li>
+											<li><a href="#">laptop</a></li>
+											<li><a href="#">Camera</a></li>
+											<li><a href="#">I pad</a></li>
+											<li><a class="view-more btn- btn-sm" href="#">View more</a></li>
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<h4 class="row mega-title">Description</h4>
+										<ul class="description">
+											<li><a href="#">Women</a>
+												<span>Description of Women</span>
+											</li>
+											<li><a href="#">Men</a>
+													<span>Description of men Cloths</span>
+											</li>
+											<li><a href="#">Kids</a>
+													<span>Description of Kids Cloths</span>
+											</li>
+											<li><a href="#">Others</a>
+													<span>Description of Others Cloths</span>
+											</li>
+											<li>
+											<a class="view-more btn btn-sm " href="#">View more</a>
+													 
+											</li>
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<img class="img-responsive"  src="img/image4.jpg">
+										<h4>Architecture </h4>
+										<div class="footer-icon">
+											<a href="#"><i class="fa fa-facebook"></i></a>
+											<a href="#"><i class="fa fa-twitter"></i></a>
+											<a href="#"><i class="fa fa-google"></i></a>
+											<a href="#"><i class="fa fa-instagram"></i></a>
+										</div>
+									</div>
+								</div>
+								<div id="Profile" class="tabcontent">
+									<div class="col-md-3">
+										<img class="img-responsive mpik" src="img/MoviePoster.jpg">
+										<h4>MoviePoster </h4>
+									</div>
+									<div class="col-md-6">
+										<div class="details">
+											<form>
+												<div>
+													<label for="name">Full Name</label>
+													<input type="text" class="form-control" id="name">
+												</div>
+												<div>
+													<label for="email">Email Address</label>
+													<input type="email" class="form-control" id="email">
+												</div>
+												<div>
+													<label for="p-address">Property Address</label>
+													<input type="text" class="form-control" id="p-address">
+												</div>
+												<div>
+													<label for="p-type">Property Type</label>
+														<select class="form-control" id="p-type" name="p-type">
+															<option> Property Type 1</option>
+															<option> Property Type 2</option>
+															<option> Property Type 3</option>
+														</select>
+												</div>
+												<div class="submit-btn-wrapper">
+													<button class="rmm-btn" type="submit">Request Quote</button>
+												</div>
+											</form>
+										</div>
+									</div>										
+								</div>
+								<div id="Messages" class="tabcontent">
+									<div class="col-md-3">
+										<div class="padding-30px-left md-padding-20px-left sm-no-padding-left">
+											<h5>Integration of business</h5>
+											<p>Duis Integration aute irure design in reprehenderit in voluptate.</p>
+											<ul class="list-style-16">
+												<li>Exclusive design</li>
+												<li>Life time supports</li>
+												<li>Solve your problem with us</li>
+												<li>We Provide Awesome Services</li>
+												<li>Your business deserves best software</li>
+											</ul>
+
+										</div>
+									</div>
+									<div class="col-md-6">
+										<img class="img-responsive cover-background " src="img/about-pic.jpg">
+										<div class="text-center center-col absolute-middle-center">
+											<a class="video" href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1" class="video-btn" data-type="iframe">
+												<span class="video_btn margin-10px-right margin-15px-bottom">
+													<i class="fa fa-play"></i>
+												</span>
+											</a>	
+										</div>	                                 									
+									</div>
+								</div>								
+								<div id="Settings" class="tabcontent">
+									<div class="col-md-3">
+										<img class="img-responsive" src="img/img6.png">
+										<h4>Real Street </h4>
+									</div>
+									<div class="col-md-3">
+										<img class="img-responsive" src="img/img7.png">
+										<h4>Real Street </h4>
+									</div>
+									<div class="col-md-3">
+										<img class="img-responsive"  src="img/img-55.jpg">
+										<h4>Real Street </h4>
+									</div>
+								</div>
+							</ul>					
+						</li>
+						
+						<li class="drop-down"><a href="#"><i class=""></i> Flyout</a>
+							<!--Drop Down-->
+							<ul class="drop-down-ul animated fadeIndown">
+								<li class="flyout-right"><a href="#">Flyout Right</a><!--Flyout Right-->
+									<ul class="animated fadeIn">
+										<li><a href="#">Mobile</a></li>
+										<li><a href="#">Computer</a></li>
+										<li class="flyout-right"><a href="#">Watch</a>
+											<ul class="animated fadeIn">
+												<li><a href="#">Team</a></li>
+												<li><a href="#">About us</a></li>
+												<li class="flyout-right"><a href="#">Blog</a>
+													<ul class="animated fadeIn">
+														<li><a href="#">Your Tittle 1</a></li>
+														<li><a href="#">Your Tittle 2</a></li>
+														<li><a href="#">Your Tittle 3</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								
+								<li class="flyout-left"><a href="#">Flyout Left</a><!--Flyout Left-->
+									<ul class="animated fadeIn">
+										<li><a href="#">Mobile</a></li>
+										<li><a href="#">Computer</a></li>
+										<li><a href="#">Watch</a></li>
+									</ul>			
+								</li>
+								
+								<li><a href="#">No Flyout</a></li>
+							 
+							</ul>
+							<!--//End drop down-->	
+						</li>					
+			
+						
+						<li class="mega-drop-down"><a href="#"><i class="fa fa-list"></i> Mega Menu</a>
+							<div class="animated fadeIn mega-menu">
+								<div class="mega-menu-wrap">
+									<div class="row">
+									<div class="col-md-4">
+										<h4 class="row mega-title">Feature</h4>
+											<img class="img-responsive" src="img/image1.jpg">
+									</div>
+										<div class="col-md-2">
+												<h4 class="row mega-title">Standers</h4>
+											<ul class="stander">
+												<li><a href="#">Mobile</a></li>
+												<li><a href="#">Computer</a></li>
+												<li><a href="#">Watch</a></li>
+												<li><a href="#">laptop</a></li>
+												<li><a href="#">Camera</a></li>
+												<li><a href="#">I pad</a></li>
+												<li><a class="view-more btn- btn-sm" href="#">View more</a></li>
+											</ul>
+										</div>
+										<div class="col-md-3">
+											<h4 class="row mega-title">Description</h4>
+											<ul class="description">
+												<li><a href="#">Women</a>
+													<span>Description of Women</span>
+												</li>
+												<li><a href="#">Men</a>
+														<span>Description of men Cloths</span>
+												</li>
+												<li><a href="#">Kids</a>
+														<span>Description of Kids Cloths</span>
+												</li>
+												<li><a href="#">Others</a>
+														<span>Description of Others Cloths</span>
+												</li>
+												<li>
+												<a class="view-more btn btn-sm " href="#">View more</a>
+														 
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-3">
+										<h4 class="row mega-title">Icon + Description</h4>
+											<ul class="icon-des">
+												<li><a href="#"><i class="fa fa-globe"></i>Web</a></li>
+												<li><a href="#"><i class="fa fa-mobile"></i>Mobile</a></li>
+												<li><a href="#"><i class="fa fa-arrows-h"></i>Responsive</a></li>
+												<li><a href="#"><i class="fa fa-desktop"></i>Desktop</a></li>
+												<li><a href="#"><i class="fa fa-paint-brush"></i>UI/UX</a></li>
+											</ul>
+										</div>
+										
+									</div>
+								</div>	
+							</div>
+						</li>
+						<li class="blog-drop-down"><a href="#"><i class="fa fa-bullhorn"></i> Blog</a>
+							<div class="Blog animated fadeIn">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="new-blog-builder">
+											<div class="blog-wrapper-image">
+												<img src="img/blog/img-2.jpg">
+											</div>
+											<div class="grid-content grid-blog"> 
+												<div class="meta-wrap">
+													<span class="bp-padd">
+														<i class="fa fa-folder-open-o"></i> 
+														<a href="#">Branding</a> ,
+														<a href="#">Business</a>
+													</span>
+													<span>
+														<i class="fa fa-clock-o"></i> 
+														<time class="entry-date" datetime="2019-11-18T17:14:38+00:00">Nov 18, 2017</time>
+													</span>
+													<h2 class="post-title-builder">
+														<a href="#">Fitness tips 12 bad runner habits</a>
+													</h2>
+													<p>Konglish is the use of English words derived from English words.Lorem ipsum dolor sit amet</p>
+													<a class="blog-btn-more" href="#">READ MORE</a>
+												</div>                    
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="new-blog-builder">
+											<div class="blog-wrapper-image">
+												<img src="img/blog/img-1.jpg">
+											</div>
+											<div class="grid-content grid-blog"> 
+												<div class="meta-wrap">
+													<span class="bp-padd">
+														<i class="fa fa-folder-open-o"></i> 
+														<a href="#">Branding</a> ,
+														<a href="#">Business</a>
+													</span>
+													<span>
+														<i class="fa fa-clock-o"></i> 
+														<time class="entry-date" datetime="2019-11-18T17:14:38+00:00">Nov 18, 2017</time>
+													</span>
+													<h2 class="post-title-builder">
+														<a href="#">Competently matrix is innovative markets</a>
+													</h2>
+													<p>Konglish is the use of English words derived from English words.Lorem ipsum dolor sit amet</p>
+													<a class="blog-btn-more" href="#">READ MORE</a>
+												</div>                    
+											</div>
+										</div>
+									</div>	
+									<div class="col-md-4">
+										<div class="new-blog-builder">
+											<div class="blog-wrapper-image">
+												<img src="img/blog/img-3.jpg">
+											</div>
+											<div class="grid-content grid-blog"> 
+												<div class="meta-wrap">
+													<span class="bp-padd">
+														<i class="fa fa-folder-open-o"></i> 
+														<a href="#">Branding</a> ,
+														<a href="#">Business</a>
+													</span>
+													<span>
+														<i class="fa fa-clock-o"></i> 
+														<time class="entry-date" datetime="2019-11-18T17:14:38+00:00">Nov 18, 2017</time>
+													</span>
+													<h2 class="post-title-builder">
+														<a href="#">Energistically redefine flexible benefits after</a>
+													</h2>
+													<p>Konglish is the use of English words derived from English words.Lorem ipsum dolor sit amet</p>
+													<a class="blog-btn-more" href="#">READ MORE</a>
+												</div>                    
+											</div>
+										</div>
+									</div>
+								</div>												
+							</div>
+						</li>
+						<li class="Tabs-drop-down"><a href="#"><i class="fa fa-briefcase"></i> Tabs</a>
+							<div class="Tabs animated fadeIn">
+								<div class="col-md-3">																								
+									<div class="tab">
+									  <button class="tablinks rmm" onmouseover="openCity(event, 'Asia')">Asia</button>
+									  <button class="tablinks rmm" onmouseover="openCity(event, 'London')">London</button>
+									  <button class="tablinks rmm" onmouseover="openCity(event, 'New York')">New York</button>
+									  <button class="tablinks rmm" onmouseover="openCity(event, 'United States')">United States</button>
+									</div>
+								</div>		
+								
+								<div id="Asia" class="tabcontent active">
+									 <div class="col-md-3">
+										<img class="img-responsive" src="img/image1.jpg">
+										<h4>Architecture</h4>
+									</div>
+									<div class="col-md-3">
+										<img class="img-responsive" src="img/image2.jpg">
+										<h4>Architecture </h4>
+									</div>
+									<div class="col-md-3">
+										<img class="img-responsive"  src="img/image4.jpg">
+										<h4>Architecture </h4>
+									</div>
+								</div>
+
+									<div id="London" class="tabcontent">
+									  <div class="col-md-3">
+											<img class="img-responsive" src="img/img6.png">
+											<h4>Constraction </h4>
+										</div>
+										<div class="col-md-3">
+											<img class="img-responsive" src="img/img8.jpg">
+											<h4>Constraction </h4>
+										</div>
+										<div class="col-md-3">
+											<img class="img-responsive"  src="img/img7.png">
+											<h4>Constraction </h4>
+										</div> 
+									</div>
+
+									<div id="New York" class="tabcontent">
+										<div class="col-md-3">
+											<img class="img-responsive" src="img/img-11.jpg">
+											<h4>Engineering </h4>
+										</div>
+										<div class="col-md-3">
+											<img class="img-responsive" src="img/img-66.jpg">
+											<h4>Engineering </h4>
+										</div>
+										<div class="col-md-3">
+											<img class="img-responsive"  src="img/img-55.jpg">
+											<h4>Engineering </h4>
+										</div>
+									</div>
+									
+									<div id="United States" class="tabcontent">
+										<div class="col-md-3">
+											<img class="img-responsive" src="img/img6.png">
+											<h4>Real Street </h4>
+										</div>
+										<div class="col-md-3">
+											<img class="img-responsive" src="img/img7.png">
+											<h4>Real Street </h4>
+										</div>
+										<div class="col-md-3">
+											<img class="img-responsive"  src="img/img-55.jpg">
+											<h4>Real Street </h4>
+										</div>
+									</div>
+							</div>						
+						</li>
+						
+						<li  class="images-drop-down"><a  href="#"><i class="fa fa-photo"></i> Images</a>
+							<div class="Images animated fadeIn">
+								<div class="col-md-3">								
+									<img class="img-responsive" src="img/image3.jpg">
+									<h4>Buisness </h4>
+								</div>
+								<div class="col-md-3">
+									<img class="img-responsive" src="img/img-55.jpg">
+									<h4>Constraction </h4>
+								</div>
+								<div class="col-md-3">
+									<img class="img-responsive" src="img/image2.jpg">
+									<h4>Architecture </h4>
+								</div>
+								<div class="col-md-3">
+									<img class="img-responsive"  src="img/img-11.jpg">
+									<h4>Engineering </h4>
+								</div>
+								<p>Images can appear above, below, left, or right of the item text</p>
+							</div>
+						
+						</li>
+						<li class="contact-drop-down"><a href="#"><i class="fa fa-envelope"></i> Contact</a>
+							<div class="contact animated fadeIn">
+								<div class="col-md-6">
+									<div class="contact-wrapper mb-30">
+										<div class="contact-text">
+											<h4>Contact Info:</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+										</div>
+										<ul class="contact-menu">
+											<li>
+												<span class="address"><i class="fa fa-map-marker"></i>Address:</span>
+												<span class="contact-link">55, Lvabbari. Mikicuka, USA, 665087</span>
+											</li>
+											<li>
+												<span class="address"><i class="fa fa-phone"></i>Phone:</span>
+												<span class="contact-link">+23 4567 890 ,  +356 4657 8878</span>
+											</li>
+											<li>
+												<span class="address"><i class="fa fa-envelope"></i>Email:</span>
+												<span class="contact-link">support@megamenu.com</span>
+											</li>
+											<li>
+												<span class="address"><i class="fa fa-user"></i>Share:</span>
+												<div class="contact-icon">
+													<a href="#"><i class="fa fa-facebook-f"></i></a>
+													<a href="#"><i class="fa fa-twitter"></i></a>
+													<a href="#"><i class="fa fa-google-plus"></i></a>
+													<a href="#"><i class="fa fa-instagram"></i></a>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="map-wrapper pos-relative mb-30">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1825.7529629112532!2d90.38888959995522!3d23.76499199779321!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c75f2944fbf1%3A0xc2b073b23f015fea!2sElenbari+Jame+Masjid!5e0!3m2!1sen!2sbd!4v1549536484950" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="search-drop-down drop-icon"><a href="#"><i class="fa fa-search"></i></a>
+							<div class="search animated fadeIn">
+									<form class="form">
+										<input type="text" class="form-control" placeholder="Search here..">
+										<button type="submit" class="btn rmmsearch"><i class="fa fa-search"></i></button>
+									</form>
+							</div>	
+						</li>
+						<li class="search-drop-down drop-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li class="search-drop-down drop-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<a href="#" class="toggle-menu visible-xs-block">||| MENU</a>		
+					</ul>	 
+				</div>
+			</div>
+		</div>
+	</div>
+		
+		
+		<div class="hero-banner hero-warp-4 hero-banner-main">
+			<div class="hero-banner-inside">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>The Ultimate Responsive <br /><span>Mega Menu Plugin</span></h1>
+							<p>Dynamically procrastinate B2C users after installed base benefits.
+							Collaboratively administrate empowered market.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="contentwrapper">
+			<div class="container">
+				<div class="content_wrapper row row-center row-nav-style">
+					<h1 class="top-h1">Navigate In Style</h1> 
+					<i class="nav-style fa fa-angle-double-down"></i>
+				</div>
+				<div class="row row-warp">
+					<div class="content_wrapper">
+						<div class="one_half_first">
+							<div class="col-md-6">
+								<h2>Create beautiful menu layouts</h2>
+									<p><strong>Columns, tabs, rows, images, icons, maps, forms &amp; more.</strong></p>
+									<hr>
+									<p>With a full grid system built in and individual layout controls for each menu item, it's easier than ever to build gorgeous mega menu layouts.</p>
+							</div>
+						</div>
+						<div class="one_half"> 
+							<div class="col-md-6">
+								<img class="img-shadow" src="img/brand/new11.PNG" alt="MegaMenu">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="container-fluid">
+					<div class="row row-warp row-darker flush_bottom">
+						<div class="content_wrapper">
+							<div class="one_half_first flush_bottom center_content"> 
+								<div class="col-md-6">
+									<img alt="Mobile responsive WordPress mega menu on an iPhone" src="img/mobile2.jpg">
+								</div>
+							</div>
+							<div class="one_half">
+								<div class="col-md-6">
+									<h2>Responsive &amp; Mobile Optimized</h2>
+									<p><strong>Touch-enabled for an enhanced mobile experience</strong></p><hr>
+									<p>Not only is UberMenu 3 fully responsive, it has a touch interface which unifies user experience across mobile OSes.</p>
+									<p>Choose your own breakpoint - control the viewport width at which the menu collapses through the Control Panel</p>
+									<img alt="Responsive WordPress Mega Menu QR Code" width="100" src="img/about1.png">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div class="container">	
+				<div class="row row-warp flush_bottom">
+					<div class="content_wrapper">
+						<div class="col-md-6">
+							<div class="two_fifths_first">
+								<h2>Easily Add Images</h2><hr>
+							</div>
+							<div class="three_fifths">
+								<p><strong>Catch your customers' attention</strong>. Provide visual references to help your customers quickly navigate your site. <a href="https://wpmegamenu.com/images/">Learn more</a></p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<img alt="mega-menu" src="img/Capture.PNG">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">	
+				<div class="row row-warp row-darker">
+					<div class="content_wrapper">
+						<div class="one_half_first">
+							<div class="col-md-6">
+								<img alt="mega-menu" class="img-shadow" src="img/brand/contact.PNG">
+							</div>
+						</div>
+						<div class="one_half">
+							<div class="col-md-6">
+								<h2>Custom Content &amp; Widgets</h2>
+								<p><strong>Shortcodes, maps, contact forms &amp; more.</strong></p><hr>
+								<p>RM-Menu lets you add any HTML, shortcode, or widget you like to the menu.
+								<a href="#">Learn more</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">	
+				<div class="row row-warp">
+					<div class="content_wrapper">
+						<div class="one_half_first">
+							<div class="col-md-6">
+								<img alt="mega-menu" src="img/cnf.PNG">
+							</div>
+						</div>
+						<div class="one_half">
+							<div class="col-md-6">
+								<h2>Contact Form</h2>
+								<p><strong>Create contact form 7 to your menu with the Customizer</strong></p><hr>
+								<p>RM-Menu includes conctact form 7 as well as integration with the Customizer with over, so you can design your menu style with a Live Preview.  It's also easy to customize with HTML5&CSS.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row row-warp">
+					<div class="content_wrapper">
+						<div class="one_half_first center_content">
+							<div class="col-md-6">
+								<img alt="mega-menu" src="img/video.PNG">
+							</div>
+						</div>
+						<div class="one_half">
+							<div class="col-md-6">
+								<h2>Automatic Play Button</h2>
+								<p><strong>Build submenu content video play button from awesome animations</strong></p><hr>
+								<p>RM-Menu's Includes Awesome Animations Videos Play Button Menu Item Types allow you to insert any Posts, Pages, Categories, Terms, Custom Post Types or Custom Taxonomy Terms into your menu. <a href="#">Learn more</a></p>
+							</div>	
+						</div>					
+					</div>
+				</div>
+				<div class="row row-warp">
+					<div class="content_wrapper">
+						<div class="one_half_first center_content">
+							<div class="col-md-6">							
+								<img alt="mega-menu" src="img/brand/tab.PNG">
+							</div>
+						</div>
+						<div class="one_half"> 
+							<div class="col-md-6">
+								<h2>Tabbed Submenus</h2>
+								<p><strong>Create you tabbed hover submenu simply</strong></p><hr>
+								<p>Have lots of submenu content?  Easily organize your submenus into tabs - above, below, left, or right of the content panels. 
+								<a href="#">Learn more</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row row-warp">
+					<div class="content_wrapper">
+						<div class="one_half_first">
+							<div class="col-md-6">
+								<img alt="mega-menu" src="img/dynamic_machine.jpg">
+							</div>
+						</div>
+						<div class="one_half">
+							<div class="col-md-6">
+								<h2>Icons</h2><p><strong>4k Google Font Awesome Icons included.</strong></p><hr>
+								<p>RM-Menu includes <a href="#">4k icons</a> out of the box which can be assigned to any menu item.  Grab the Icons Extension to get over  icons, along with the ability to customize position &amp; more.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+		
+
+		<div class="container">
+			<div class="row">
+				<div id="message_wrapper">
+					<div class="content_wrapper"> 
+						<div class="contentleft">
+							<p>Jumpstart your site navigation today!</p>
+						</div>
+						<div class="contentright">
+							<div class="button_green_image">
+								<a href="https://codecanyon.net/user/themexhunter">Get RM-Menu Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-area text-center">
+			<p>Copyright ©2019 <a href="https://codecanyon.net/user/themexhunter">ThemexHunter</a>. All Rights Reserved</p>
+		</div>
+		
+		
+			<script src="js/vendor/jquery.min.js"></script>
+			<script  src="js/styleswitcher.js"></script>
+			<script  src="js/rm_menu.js"></script>
+			<script  src="js/jquery.slicknav.min.js"></script>
+			<script  src="js/bootstrap.min.js"></script>
+
+		<script>
+			function openCity(evt, cityName) {
+			  // Declare all variables
+			  var i, tabcontent, tablinks;
+
+			  // Get all elements with class="tabcontent" and hide them
+			  tabcontent = document.getElementsByClassName("tabcontent");
+			  for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			  }
+
+			  // Get all elements with class="tablinks" and remove the class "active"
+			  tablinks = document.getElementsByClassName("tablinks");
+			  for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");				
+			  }
+
+			  // Show the current tab, and add an "active" class to the link that opened the tab
+			  document.getElementById(cityName).style.display = "block";
+			  evt.currentTarget.className += " active";
+			}
+		</script>
+
+	</body>
+
+</html>
